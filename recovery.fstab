@@ -4,7 +4,7 @@
 
 # Mount point	FS		Device location									Flags
 /system         ext4	/dev/block/bootdevice/by-name/system			flags=display="System"
-/system_image   emmc	/dev/block/bootdevice/by-name/system			flags=backup=0;flashimg=1
+/system_image   emmc	/dev/block/bootdevice/by-name/system			flags=backup=1;flashimg=1
 /data           ext4	/dev/block/bootdevice/by-name/userdata			flags=encryptable=footer;length=-16384
 /boot           emmc	/dev/block/bootdevice/by-name/boot				flags=display="Boot"
 /cache          ext4	/dev/block/bootdevice/by-name/cache				flags=display="Cache"
